@@ -1,0 +1,167 @@
+body{
+    background-image: linear-gradient(to right,#180303,#650000,#180303);
+    color: aliceblue;
+    margin: 0;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size:70px;
+}
+p{
+    margin-bottom: 5px;
+}
+#header{
+    font-family: serif;
+    text-align: center;
+    text-shadow: 8px 8px 7px black;
+}
+#para{
+    /* width: 1000px; */
+    color: rgb(132, 22, 22);
+    text-shadow: 0 0 1px rgb(203, 39, 39);
+    background-color: #180303;
+    border: 10px solid #3b0505;
+    text-align: center;
+    border-radius: 20px;
+}
+.mem-heading{
+    margin: 0;
+    font-size: 25px;
+    text-shadow: 0 0 5px black;
+}
+.navdiv{
+    border: 5px solid #3b0505 ;
+    display: flex;
+    justify-content: end;
+    /* background-color:black; */
+    background-image: url("images/old.jpg");
+    padding: 0;
+    border-radius: 20px;
+    color: black;
+    text-shadow: 0 0 1px rgb(71, 8, 8);
+}
+.navcontent{
+    margin: 0 10px;;
+    padding: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 0 0 1px rgb(71, 8, 8);
+}
+a:hover{
+    color:#650000;
+}
+
+.navcontent:hover{
+    color:#650000;
+    border-radius: 20px;
+    background-color: black;
+}
+
+/* ************************************************* */
+
+.AkatsukiMembers{
+    display: flex;
+    /* border: 2px solid white; */
+    width: 1050px;
+    justify-content: space-between;
+    margin: 40px auto;
+    margin-bottom: 100px;
+}
+.rowMem{
+    /* border: 2px solid yellow; */
+    text-align: center;
+}
+.photo{
+    height: 340px;
+    width: 400px;
+    /* border: 2px solid blue; */
+    border-radius: 20px;
+    background-image: url("images/cover2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-right: 20px solid black;
+    border-left: 20px solid black;
+}
+#pain:hover{
+    background-image: url("images/pain.webp");
+    background-size: contain;
+}
+#itachi:hover{
+    background-image: url("images/itachi.jpg");
+    background-size: cover;
+}
+#obito:hover{
+    background-image: url("images/obito.jpg");
+    background-size: cover;
+}
+#sasuke:hover{
+    background-image: url("images/sassuke.jpg");
+    background-size: contain;
+}
+#hidan:hover{
+    background-image: url("images/hidan.webp");
+    background-size: cover;
+}
+#deidara:hover{
+    background-image: url("images/deidara.jpg");
+    background-size: cover;
+}
+footer{
+    /* border: 2px solid white; */
+    height: 369px;
+    /* background-color: #3b0202; */
+    margin-bottom: 0;
+    /* border: 2px solid white; */
+    margin: 0;
+}
+.about{
+    /* border: 2px solid white; */
+    height: 300px;
+    background-color: #3a0505;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.end{
+    background-color: black;
+    height: 70px;
+    border: 2px solid black;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutme{
+    /* text-align: center; */
+    padding-left: 20px;
+}
+.para{
+    margin-top: 35px;;
+}
+#Skills{
+    padding-right:120px;
+}
+#skills-heading{
+    padding-left: 20px;
+}
+#college{
+    padding-left: 80px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    padding: 5px;
+    margin: 5px;
+}
+#insta{
+    width: 54px;
+    /* margin-top: 20px; */
+    /* height: 55px; */
+}
